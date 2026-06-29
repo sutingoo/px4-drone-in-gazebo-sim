@@ -4,6 +4,8 @@ A Software-In-The-Loop (SITL) architecture for aerial robotics, bridging the det
 
 This is not just "a script that flies a drone." It's the connective tissue between two fundamentally different computational paradigms — and the foundation for a long-term research path toward autonomous, learning-based flight.
 
+![Gazebo Drone Simulation](Screenshot from 2026-06-29 02-17-22.png)
+
 ---
 
 ## Table of Contents
