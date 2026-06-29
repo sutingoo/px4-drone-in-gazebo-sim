@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/cesar/drone_ws/build/drone_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cesar/drone_ws/src/drone_control -DCMAKE_INSTALL_PREFIX=/home/cesar/drone_ws/install/drone_control
+[0.101s] -- The C compiler identification is GNU 13.3.0
+[0.175s] -- The CXX compiler identification is GNU 13.3.0
+[0.196s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.313s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.418s] -- Detecting CXX compile features
+[0.419s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.683s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.777s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.887s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.892s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.025s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.127s] -- Found px4_msgs: 1.17.0 (/home/cesar/drone_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.145s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.244s] -- Configured cppcheck include dirs: 
+[1.244s] -- Configured cppcheck exclude dirs and/or files: 
+[1.245s] -- Added test 'lint_cmake' to check CMake code style
+[1.246s] -- Added test 'uncrustify' to check C / C++ code style
+[1.246s] -- Configured uncrustify additional arguments: 
+[1.247s] -- Added test 'xmllint' to check XML markup files
+[1.249s] -- Configuring done (1.2s)
+[1.256s] -- Generating done (0.0s)
+[1.259s] -- Build files have been written to: /home/cesar/drone_ws/build/drone_control
+[1.274s] Invoked command in '/home/cesar/drone_ws/build/drone_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cesar/drone_ws/src/drone_control -DCMAKE_INSTALL_PREFIX=/home/cesar/drone_ws/install/drone_control
+[1.276s] Invoking command in '/home/cesar/drone_ws/build/drone_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cesar/drone_ws/build/drone_control -- -j12 -l12
+[1.334s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/offboard_control.cpp.o[0m
+[5.789s] [100%] [32m[1mLinking CXX executable offboard_control[0m
+[5.987s] [100%] Built target offboard_control
+[5.997s] Invoked command in '/home/cesar/drone_ws/build/drone_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cesar/drone_ws/build/drone_control -- -j12 -l12
+[6.006s] Invoking command in '/home/cesar/drone_ws/build/drone_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cesar/drone_ws/build/drone_control
+[6.016s] -- Install configuration: ""
+[6.016s] -- Installing: /home/cesar/drone_ws/install/drone_control/lib/drone_control/offboard_control
+[6.017s] -- Set non-toolchain portion of runtime path of "/home/cesar/drone_ws/install/drone_control/lib/drone_control/offboard_control" to ""
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/ament_index/resource_index/package_run_dependencies/drone_control
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/ament_index/resource_index/parent_prefix_path/drone_control
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/environment/ament_prefix_path.sh
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/environment/ament_prefix_path.dsv
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/environment/path.sh
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/environment/path.dsv
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/local_setup.bash
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/local_setup.sh
+[6.018s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/local_setup.zsh
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/local_setup.dsv
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/package.dsv
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/ament_index/resource_index/packages/drone_control
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/cmake/drone_controlConfig.cmake
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/cmake/drone_controlConfig-version.cmake
+[6.019s] -- Installing: /home/cesar/drone_ws/install/drone_control/share/drone_control/package.xml
+[6.021s] Invoked command in '/home/cesar/drone_ws/build/drone_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cesar/drone_ws/build/drone_control

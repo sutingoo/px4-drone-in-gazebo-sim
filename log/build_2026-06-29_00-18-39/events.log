@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'drone_control'}
+[0.000232] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000256] (-) EventReactorShutdown: {}

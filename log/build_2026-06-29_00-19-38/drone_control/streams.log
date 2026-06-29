@@ -1,0 +1,9 @@
+[0.016s] Invoking command in '/home/cesar/drone_ws/build/drone_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cesar/drone_ws/src/drone_control -DCMAKE_INSTALL_PREFIX=/home/cesar/drone_ws/install/drone_control
+[0.030s] [31mCMake Error at CMakeLists.txt:17:
+[0.030s]   Parse error.  Expected "(", got newline with text "
+[0.030s] 
+[0.030s]   ".
+[0.030s] 
+[0.030s] [0m
+[0.030s] -- Configuring incomplete, errors occurred!
+[0.032s] Invoked command in '/home/cesar/drone_ws/build/drone_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cesar/drone_ws/src/drone_control -DCMAKE_INSTALL_PREFIX=/home/cesar/drone_ws/install/drone_control
